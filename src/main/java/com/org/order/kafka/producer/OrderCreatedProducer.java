@@ -14,7 +14,7 @@ public class OrderCreatedProducer {
 	    private KafkaTemplate<String, OrderCreatedEvent> kafkaTemplate;
 
 	    public void publish(OrderCreatedEvent createdEvent) {
-
+           System.out.println("Hello");
 	        String key = createdEvent.getOrderId().toString();
 
 	        kafkaTemplate
