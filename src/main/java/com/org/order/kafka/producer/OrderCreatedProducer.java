@@ -24,7 +24,7 @@ public class OrderCreatedProducer {
 	                    if (ex != null) {
 
 	                        System.out.println(
-	                                "ORDER CREATED EVENT FAILED"
+	                                "ORDER CREATED EVENT FAILED...."
 	                        );
 
 	                        ex.printStackTrace();
@@ -32,7 +32,7 @@ public class OrderCreatedProducer {
 	                    } else {
 
 	                        System.out.println(
-	                                "ORDER CREATED EVENT SENT SUCCESSFULLY"
+	                                "ORDER CREATED EVENT SENT SUCCESSFULLY...."
 	                        );
 
 	                        System.out.println(
